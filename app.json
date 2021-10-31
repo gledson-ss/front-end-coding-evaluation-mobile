@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "front-end-coding-evaluation-mobile",
+    "slug": "front-end-coding-evaluation-mobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "front-end-coding-evaluation-mobile"
+}
