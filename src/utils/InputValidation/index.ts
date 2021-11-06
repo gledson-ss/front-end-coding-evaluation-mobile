@@ -49,10 +49,8 @@ export function HandleDate(date: Date | undefined): string {
   }
   const getDay =
     date.getDate() > 0 && date.getDate() <= 9 ? `0${date.getDate()}` : `${date.getDate()}`;
-
   const getMonth =
     date.getMonth() > 0 && date.getMonth() <= 9 ? `0${date.getMonth()}` : `${date.getMonth()}`;
-
   const formatedDate = `${getDay}-${getMonth}-${date.getFullYear()}`;
   return formatedDate;
 }
