@@ -5,6 +5,9 @@ export const Container = styled.TouchableOpacity`
   background: ${(props) => props.theme.colors.blueMedium};
   padding: 16px 36px;
   width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ButtonText = styled.Text`
